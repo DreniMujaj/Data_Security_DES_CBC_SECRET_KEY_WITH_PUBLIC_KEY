@@ -57,6 +57,6 @@ client.on('close', () => {
  // Kur një gabim shfaqet, tregoje atë.
 client.on('error', (error) => { 
     console.error(error); 
-// Mbyllni lidhjen pasi gabimi ka ndodhur gabimi.
+// Mbyllni lidhjen pasi ka ndodhur gabimi.
     client.destroy(); 
     }); 
